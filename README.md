@@ -2,7 +2,8 @@
 The repository contains supplementary files to our study where a consensus screening approach by using different types of machine learning models (proteochemometric models, conformal prediction models, and QSAR models), followed by structure-based virtual screening of preselected hits using the structural models for hepatic OATPs was performed.
 
 ### Models_XGBoost
-This contains the used XGBoost models used in XML format created with Pipeline Pilot 18.1.100.
+This contains the XGBoost models used in XML format created with Pipeline Pilot 18.1.100.
+The QSAR_All model was formed by combining the three individual QSAR models, while the PCM model was made once and applied to the individual models due to the nature of PCM. Detailed information can be found in the article.
 
 Models were defined as XGBoost models with: (No. means Number of):
 - **Molecular Descriptors**:
