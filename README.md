@@ -39,6 +39,33 @@ This folder contains:
 - **combined_list_of_top250_used_for_docking.csv** -- The final set of compounds that were carried over to the 3D phase.
 
 ### 44_compound_IC50.xls
-This file contains IC50 measurements from the first round of in vitro screening (n=44 compounds). Compound InChiKey, ZINC ID, canonical smiles, IC50 values, and average number of measurements, are listed in the .xls table.
+This .xls file contains IC50 measurements from the first round of in vitro screening (n=44 compounds). Compound InChiKey, ZINC ID, canonical smiles, IC50 values, and average number of measurements, are listed in the .xls table.
+
+### 6_compounds_poses.zip
+This .zip file contains docking data (.pdb files for the transporter and calculated poses) for the six compounds identified on the basis of the full dose curve measurements. 
+
+### G1.csv
+This .csv file contains a list of 15 pre-selected OATP1B1 hits for experimental testing. Compound InChiKey, group label (based on the machine learning model used), and scoring function from the compound docking into OATP1B1, OATP1B3, and OATP2B1, respectively, is listed in the .csv table. 
+
+### G2.csv
+This .csv file contains a list of 15 pre-selected OATP1B3 hits for experimental testing. Compound InChiKey, group label (based on the machine learning model used), and scoring function from the compound docking into OATP1B1, OATP1B3, and OATP2B1, respectively, is listed in the .csv table. 
+
+### G3.csv
+This .csv file contains a list of 15 pre-selected OATP2B1 hits for experimental testing. Compound InChiKey, group label (based on the machine learning model used), and scoring function from the compound docking into OATP1B1, OATP1B3, and OATP2B1, respectively, is listed in the .csv table. 
+
+### Models_Conformal_Prediction.zip
+This .zip file contains conformal prediction models for OATP1B1, OATP1B3, and OATP2B1 transporters.
+
+### OATP1B1_actives.zip
+This .zip file contains conformal docking poses for all OATP1B1 actives identified in the fist round of experimental testing. 
+
+### OATP1B3_actives.zip
+This .zip file contains conformal docking poses for all OATP1B3 actives identified in the fist round of experimental testing. 
+
+### OATP1B1_actives.zip
+This .zip file contains conformal docking poses for all OATP2B1 actives identified in the fist round of experimental testing. 
+
+
+
 
 
