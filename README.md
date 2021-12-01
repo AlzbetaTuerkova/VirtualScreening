@@ -38,3 +38,7 @@ This folder contains:
 - **training_Set_OATP1B1_1B3_2B1.csv** -- the original training set containing OATP1B1, OATP1B3 and OATP2B1 activity values for a variety of tested compounds,
 - **combined_list_of_top250_used_for_docking.csv** -- The final set of compounds that were carried over to the 3D phase.
 
+### 44_compound_IC50.xls
+This file contains IC50 measurements from the first round of in vitro screening (n=44 compounds). Compound InChiKey, ZINC ID, canonical smiles, IC50 values, and average number of measurements, are listed in the .xls table.
+
+
